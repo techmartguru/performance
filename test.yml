@@ -1,0 +1,12 @@
+execution:
+- iterations: 50
+  concurrency: 10
+  scenario: with_script
+
+scenarios:
+  with_script:
+    script: poc.jmx
+
+reporting:
+- module: final-stats
+  dump-xml: stats.xml
