@@ -26,7 +26,7 @@ reporting:
   token: c7aad1afbe12e1400463c8f7:d60fcd98039a6fee43434202222784faa165c96b718f978475399e3cea6530e336a5fd70
   jmeter:
     #--- the custom or local jmeter location (this is if you don't want Taurus to download automatically the latest version of JMeter)
-    path: /deployments/apache-jmeter
+    path: /deployments/apache-jmeter/bin
     #--- JMeter memory configuration
     memory-xmx: 500MB
     version: 5.0
