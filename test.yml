@@ -8,5 +8,18 @@ scenarios:
     script: poc.jmx
 
 reporting:
+- module: console
 - module: final-stats
-  dump-xml: stats.xml
+  summary: true
+  percentiles: true 
+  failed-labels: false
+  test-duration: true
+  dump-csv: TaurusResult/perf_result_csv.csv
+- module: junit-xml
+  data-source: pass-fail
+  filename: TaurusResult/junit-result.xml
+- module: blazemeter
+  token: c7aad1afbe12e1400463c8f7:d60fcd98039a6fee43434202222784faa165c96b718f978475399e3cea6530e336a5fd70
+  report-name: Taurus test report
+  test: Taurus test
+  project: Taurus test project
