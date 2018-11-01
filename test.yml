@@ -22,6 +22,7 @@ reporting:
 #  test: Taurus test
 #  project: Taurus test project
 
+
 - module: blazemeter
   token: c7aad1afbe12e1400463c8f7:d60fcd98039a6fee43434202222784faa165c96b718f978475399e3cea6530e336a5fd70
   jmeter:
